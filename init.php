@@ -38,7 +38,7 @@ function OnAfterIBlockElementAddHandler(&$arFields) {
       $lead_data['TEXT'] .= ' Город: ' .  $arFields["PROPERTY_VALUES"]["CITY"];
     }
 
-    $lead_data['LEAD_NAME'] = 'Заявка с сайта docker-service';
+    $lead_data['LEAD_NAME'] = 'Заявка с сайта';
 
     amoCRM::add_lead($lead_data);
   }
